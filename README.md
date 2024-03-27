@@ -6,15 +6,13 @@
 
 Let's go ask an AI!
 
-> ```text
 > AI (Artificial Intelligence): This is a broad term that encompasses any computer system or machine with the ability to perform tasks that typically require human intelligence. This includes problem-solving, recognizing speech, translating languages, and more.
-> 
+>
 > Generative AI: This is a subset of AI focused on creating new content, whether that be text, images, music, or other forms of media. It uses machine learning to generate outputs that are novel and often indistinguishable from those created by humans.
-> 
+>
 > LLMs (Large Language Models): These are a type of generative AI that specifically deal with understanding and generating human language. They are trained on vast amounts of text data and can perform tasks like translation, summarization, question-answering, and content creation.
-> 
+>
 > AGI (Artificial General Intelligence): This is the concept of a machine with the ability to understand, learn, and apply knowledge in a way that is indistinguishable from a human across any field of intellectual endeavor. Unlike the other terms, AGI is still theoretical and represents a future state where AI can perform any intellectual task that a human can.
-> ```
 
 ### Models
 
@@ -55,9 +53,13 @@ LLMs that we'll talk about and use in this workshop are "Foundational Models" wh
 ### Frameworks
 
 - [LangChain](https://python.langchain.com/docs/get_started/introduction)
-  - [LangChain Expression Language](https://python.langchain.com/docs/expression_language/why)
+  - broad in scope, a very mature framework with a large community
+  - Can use [LangChain Expression Language](https://python.langchain.com/docs/expression_language/why)
 - [Llama Index](https://docs.llamaindex.ai/en/stable/)
-  - [Llama Hub](https://llamahub.ai/)
+  - narrow focused; opinionated framework with reasonable defaults make it very easy to use
+  - less easy when you want to go out the box
+  - can be used to compliment LangChain (they are not exclusive)
+  - [Llama Hub](https://llamahub.ai/) is awesome for setting up just about any kind of RAG pipeline you can dream
 
 ## Workshop Projects
 
